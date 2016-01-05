@@ -86,84 +86,92 @@
 				</div>
 			</div>
 		</form>
-		<table class="table table-hover">
-			<tr>
-				<th>Date</th>
-				<th>Description</th>
-				<th>Documents</th>
-			</tr>
-			<tr>
-				<td>1/1/2016</td>
-				<td>Pendaftaran OSC</td>
-				<td><a href="#">Borang A</a></td>
-			</tr>
-			<tr>
-				<td>2/1/2016</td>
-				<td>Pendaftaran Jabatan Teknikal</td>
-				<td><a href="#">Akuan Penerimaan</a> | <a href="#">Sticker Fail</a></td>
-			</tr>
-			<tr>
-				<td>4/1/2016</td>
-				<td>Arahan Bertulis 1</td>
-				<td><a>Surat Arahan Bertulis</a></td>
-			</tr>
-			<tr>
-				<td>11/1/2016</td>
-				<td>Pematuhan Arahan Bertulis</td>
-				<td></td>
-			</tr>
-			<tr>
-				<td>11/1/2016</td>
-				<td>Pendaftaran Arahan Bertulis</td>
-				<td><a>Surat Penerimaan Arahan Bertulis</a></td>
-			</tr>
-			<!-- <tr>
-				<td></td>
-				<td></td>
-				<td></td>
-			</tr>
-			<tr>
-				<td></td>
-				<td></td>
-				<td></td>
-			</tr> -->
-		</table>
 		<div class="panel panel-default">
+			<!-- Default panel contents -->
 			<div class="panel-heading">
-				<h3 class="panel-title">Record New Activity</h3>
+				<h3 class="panel-title">Logged/Recorded Activities</h3>
 			</div>
-			<div class="panel-body">
-				<form class="form-inline">
-					<div  data-provide="datepicker"  class="input-group date">
-						<input type="text" class="form-control" value="12-02-2012">
-						<div class="input-group-addon">
-							<span class="glyphicon glyphicon-th"></span>
-						</div>
-					</div>
-					<select class="form-control">
-						<option> - PLEASE CHOOSE - </option>
-						<option>Pendaftaran</option>
-						<option>Pendaftaran Pematuhan Arahan Bertulis</option>
-						<option>Arahan Bertulis</option>
-						<option>Laporan Lawatan Tapak</option>
-						<option>Mesyuarat JKT</option>
-						<option>Mesyuarat OSC</option>
-						<option>Kelulusan</option>
-					</select>
-					<div class="form-group">
-						<label for="exampleInputFile" class="sr-only">Upload documents</label>
-						<input type="file" id="exampleInputFile">
-					</div>
-					<button type="submit" class="btn btn-primary">Add Activity</button>
-				</form>
-			</div>
-		</div>
+
+			<!-- Table -->
+			<table class="table table-hover">
+				<tr>
+					<th>Date</th>
+					<th>Description</th>
+					<th>Documents</th>
+				</tr>
+				<tr>
+					<td>1/1/2016</td>
+					<td>Pendaftaran OSC</td>
+					<td><a href="#">Borang A</a></td>
+				</tr>
+				<tr>
+					<td>2/1/2016</td>
+					<td>Pendaftaran Jabatan Teknikal</td>
+					<td><a href="#">Akuan Penerimaan</a> | <a href="#">Sticker Fail</a></td>
+				</tr>
+				<tr>
+					<td>4/1/2016</td>
+					<td>Arahan Bertulis 1</td>
+					<td><a>Surat Arahan Bertulis</a></td>
+				</tr>
+				<tr>
+					<td>11/1/2016</td>
+					<td>Pematuhan Arahan Bertulis</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>11/1/2016</td>
+					<td>Pendaftaran Arahan Bertulis</td>
+					<td><a>Surat Penerimaan Arahan Bertulis</a></td>
+				</tr>
+				<!-- <tr>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr> -->
+	</table>
+</div>
+<div class="panel panel-default">
+	<div class="panel-heading">
+		<h3 class="panel-title">Log/Record New Activity</h3>
 	</div>
-	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	<script src="js/jquery.js"></script>
-	<script src="js/datepicker.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<div class="panel-body">
+		<form class="form-inline">
+			<div  data-provide="datepicker"  class="input-group date">
+				<input type="text" class="form-control" value="12-02-2012">
+				<div class="input-group-addon">
+					<span class="glyphicon glyphicon-th"></span>
+				</div>
+			</div>
+			<select class="form-control">
+				<option> - PLEASE CHOOSE - </option>
+				<option>Pendaftaran</option>
+				<option>Pendaftaran Pematuhan Arahan Bertulis</option>
+				<option>Arahan Bertulis</option>
+				<option>Laporan Lawatan Tapak</option>
+				<option>Mesyuarat JKT</option>
+				<option>Mesyuarat OSC</option>
+				<option>Kelulusan</option>
+			</select>
+			<div class="form-group">
+				<label for="exampleInputFile" class="sr-only">Upload documents</label>
+				<input type="file" id="exampleInputFile">
+			</div>
+			<button type="submit" class="btn btn-primary">Add Activity</button>
+		</form>
+	</div>
+</div>
+</div>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery.js"></script>
+<script src="js/datepicker.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
 
 </body>
 </html>
